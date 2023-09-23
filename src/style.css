@@ -49,13 +49,13 @@ form * {
   border-radius: 5px;
   background-color: var(--background-color);
   color: var(--white-color);
-  cursor: pointer;
   gap: 1rem;
   transition: all 0.2s ease;
 }
 
-#value {
-  width: 100%;
+#select-options,
+#submit-btn {
+  cursor: pointer;
 }
 
 #value:hover,
