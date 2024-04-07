@@ -4,7 +4,13 @@
 
 ## Preview
 
+## [validator.vercel](https://paulo-validator.vercel.app/)
+
 ![Preview of Validator](./validator.png)
+
+## Link
+
+
 
 ## About
 
