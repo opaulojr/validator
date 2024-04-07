@@ -2,15 +2,13 @@
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-## Preview
+## Link
 
 ## [validator.vercel](https://paulo-validator.vercel.app/)
 
+## Preview
+
 ![Preview of Validator](./validator.png)
-
-## Link
-
-
 
 ## About
 
