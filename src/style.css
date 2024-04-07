@@ -1,9 +1,9 @@
 :root {
   --primary-color: #1c71d8;
-  --background-color: #242424;
+  --body-color: #242424;
+  --background-color: #ffffff1a;
   --white-color: #FFF;
   --dark-color: #333;
-  --border-color: #111;
   --success-color: #26a269;
   --error-color: #c01c28;
 }
@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: var(--background-color);
+  background-color: var(--body-color);
   color: var(--white-color);
   text-align: center;
 }
@@ -28,7 +28,10 @@ main {
   display: flex;
   max-width: 600px;
   flex-flow: column wrap;
-  padding: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 0 1rem;
+  background-color: var(--background-color);
   gap: 1rem;
 }
 
@@ -49,13 +52,14 @@ form * {
   width: 100%;
   flex-flow: column wrap;
   padding: 10px 25px;
-  border: 2px solid var(--border-color);
+  border: none;
   border-radius: 5px;
-  background-color: var(--background-color);
+  background-color: var(--body-color);
   color: var(--white-color);
   font-size: 1.125rem;
   gap: 1rem;
-  transition: all 0.2s ease;
+  outline: none;
+  transition: all 0.2s ease
 }
 
 #select-options,
@@ -75,6 +79,11 @@ form * {
 p {
   margin-top: 20px;
   font-size: 1.5rem;
+}
+
+#answer {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .success {

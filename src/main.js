@@ -17,7 +17,7 @@ submitBtn.addEventListener('click', (event) => {
     url: validator.isURL(fieldText.value),
   };
 
-  const validationText = `The validation returned: ${validation[option.value]}`;
+  const validationText = `${validation[option.value]}`;
   answer.innerHTML = validationText;
 
   answer.classList.remove('success', 'error');
